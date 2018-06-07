@@ -19,7 +19,7 @@ MatrixView.prototype.render = function () {
 	for(i = 0; i < attributes.size.width; i += 1) {
 		str += '<div class="row">';
 		for(j = 0; j < attributes.size.height; j += 1) {
-			str += '<div class="cell' + attributes.grid[i][j] + ' ">' + attributes.grid[i][j] + '</div>';
+			str += '<div class="cell appear-' + attributes.grid[i][j] + ' ">' + attributes.grid[i][j] + '</div>';
 		}
 		str += '</div>';
 	}

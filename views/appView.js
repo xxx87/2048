@@ -6,10 +6,6 @@ function AppView() {
 		var element = document.getElementById(selector);
 		summaryView.show(element);
 		matrixView.show(element);
-		// summaryView.show(element);
-		// element.innerHTML += summaryView.render();
-		// element.innerHTML += matrixView.render();
-
 	}
 }
 
